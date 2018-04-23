@@ -1,5 +1,6 @@
 <template>
  <div class="home">
+    <!-- <h1>{{ $t("body.footer")}}</h1> -->
         <router-view></router-view>
  </div>
 </template>
