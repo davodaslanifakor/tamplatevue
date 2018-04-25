@@ -4,7 +4,8 @@ import {store} from '~/store/store.js'
 import i18n from '~/i18n'
 import router from './routes.js'
 import Vuebar from 'vuebar';
-
+import VueModalTor from 'vue-modaltor'
+Vue.use(VueModalTor)
 require("./css.js");
 
 Vue.use(Vuebar);

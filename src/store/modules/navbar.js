@@ -2,7 +2,7 @@ import $i from '~/i18n'
 const state = () => ({
   listNavbar: [
 	{
-		text:$i.t('body.telegram'),
+		text:$i.t('button.rules'),
 		path:'/',
 	}  
   ],
