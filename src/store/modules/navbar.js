@@ -1,7 +1,8 @@
+import $i from '~/i18n'
 const state = () => ({
   listNavbar: [
 	{
-		text:'صفحه اصلی',
+		text:$i.t('body.telegram'),
 		path:'/',
 	}  
   ],
